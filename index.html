@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <div class="logo_header">
+                <img src="logo.png" alt="">
+                <h4>Developer X</h4>
+            </div>
+            <div class="list_header">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Portfolio</li>
+                    <li>Pages</li>
+                    <!--<button class="btn"><i class="fa fa-bars"></i></button> -->
+                    <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <script>
+                        function myFunction(x) {
+                            x.classList.toggle("change");
+                        }
+                    </script>
+
+                </ul>
+            </div>
+        </div>
+        <div class="container_body">
+            <div class="body_left">
+                <div class="description">
+                    <hr>
+                    <h1>I'm Mafer a <br> Web Developer</h1>
+                    <p>Dive into her impressive portfolio and be inspired by my creativity and unique approach to each
+                        project! </p>
+                </div>
+                <div>
+                    <button class="button" role="button">MORE</button>
+                </div>
+
+            </div>
+            <div class="body_right">
+                <div class="info">
+
+                    <h4>ABOUT ME</h4>
+                    <p>I am a student at the Metropolitan Technological University of Aguascalientes,I am currently
+                        studying the 3rd quarter of said university, some of my hobbies are playing chess, spending time
+                        with my friends and seeing places. </p>
+                    <a href="">LEARN MORE</a>
+                    <hr>
+
+                    <h4>MY WORK</h4>
+                    <p>I am a collaborator in different projects throughout my student life and I seek to be a great professional.</p>
+                    <a href="">BROWSE PORFALIO</a>
+                    <hr>
+
+                </div>
+
+                <div class="social_networks">
+                    <p>FOLLOW ME</p>
+
+                    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://github.com/Mafer-Rodriguez" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mafer-rodriguez-macias/" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/invites/contact/?i=6w4tmkyhrx1r&utm_content=1d2rl09"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="mailto:utm22030609utma.edu.mx" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
